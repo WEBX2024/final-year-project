@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+    font-size: 20px;
+}
+
+#main-page{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 14% auto 20%;
+}
+
+#headbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 1em .5em 1em;
+}
+
+#logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 3em;
+}
+
+
+
+#header-content{
+    display: flex;
+    gap: 1em;
+}
+
+#user-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login{
+    text-decoration: none;
+    color: green;
+    padding: .2em .5em .2em .5em;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+#user-icon{
+    height: 3em;
+}
+
+#content{
+    padding: 1em;
+    display: flex;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c6ebf3;
+}
+
+
+#personal-info{
+    width: 12em;
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#health-info{
+    width: 12em;
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#appoinments{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: rgb(49, 50, 50);
+}
